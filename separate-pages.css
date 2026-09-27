@@ -1,0 +1,43 @@
+
+/* Separate-page navigation and layouts */
+.inner-page {
+    min-height: 80vh;
+    padding: 90px 6vw;
+}
+
+.back-home {
+    display: inline-block;
+    margin-top: 45px;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.about-preview {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.full-gallery {
+    margin-bottom: 20px;
+}
+
+.more-link {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.more-link span {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 700px) {
+    .inner-page {
+        padding: 60px 5vw;
+    }
+}
